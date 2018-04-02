@@ -4,7 +4,8 @@
   "description": "flexbox tutorial",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Mir-7/css-flexbox/issues"
   },
-  "homepage": "https://github.com/Mir-7/css-flexbox#readme"
+  "homepage": "https://github.com/Mir-7/css-flexbox#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
 }
